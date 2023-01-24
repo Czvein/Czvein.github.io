@@ -1,6 +1,8 @@
 @charset "utf-8";
 /*CSS DOCUMENT */
 
+@import url('https://fonts.cdnfonts.com/css/roadtest');
+
 html {
     scroll-behavior: smooth;
   }
