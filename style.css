@@ -1,7 +1,5 @@
 @charset "utf-8";
-/*CSS DOCUMENT */
-
-
+/* CSS Document */
 
 html {
     scroll-behavior: smooth;
@@ -43,19 +41,15 @@ nav ul{
 	display: none;
 }
 
-.nav-links{
-	font-family: myriad pro;
-	font-weight: bold;
-	color: #e6e3e3;
+nav ul li a{
+	margin:30px;
+	font-family:myriad pro regular;
+	color:#505050;
 	font-size: 15px;
 	font-weight:700;
 }
- 
-nav ul li a{
-	margin:30px;
-}
 .logo{
-	font-family: 'RoadTest', sans-serif;;
+	font-family:RoadTest;
 	color:#E61717;
 	font-size: 40px;
 }
@@ -590,7 +584,7 @@ footer p:nth-child(4){
 	 color:#5c5c5c;
 	}
 	nav ul li a:hover{
-	 color:#121212;
+	 color:#ffffff;
 	}
 	.toggle:before{
 	 content: '\f0c9';
@@ -598,6 +592,7 @@ footer p:nth-child(4){
 	 line-height: 30px;
 	 z-index: 1;
 	}
+	
 	.toggle.active:before{
 	 content: '\f00d';
 	 position: fixed;
@@ -625,7 +620,10 @@ footer p:nth-child(4){
 	}
 
 	.MyWorks{
-		height: 1600px;
+		height: 1700px;
+	}
+	.MyWorks p:nth-child(2){
+		font-size: 14px;
 	}
 
 	.Contact-Me{
@@ -639,6 +637,10 @@ footer p:nth-child(4){
 	.Contact-Me button{
 	 width: 150px;
 	 height: 33px;
+	}
+
+	footer{
+		height: 900px;
 	}
 	footer p:nth-child(2){
 	 width: 90%;
