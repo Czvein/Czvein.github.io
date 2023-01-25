@@ -1,5 +1,5 @@
 particlesJS('animated-background',
-  {
+{
     "particles": {
       "number": {
         "value": 80,
